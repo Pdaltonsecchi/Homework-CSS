@@ -1,0 +1,36 @@
+body{
+    background-color:rgb(147, 77, 28);
+}
+
+h3{
+    font-size: 2em;
+    color: white;
+}
+
+p{
+    font-size: 1em;
+    color: white;
+}
+
+.cajas{
+    border: 1px solid black;
+    width: fit-content;
+    transition: 0.5s;
+    border-radius: 10%;
+    padding: 0px 3px 0px 3px;
+}
+ .cajas:hover{
+    background-color: black;
+ }
+
+ .checkbox{
+    border: 1px solid black;
+    width: fit-content;
+    border-radius: 10%;
+    padding: 0px 0px 1px 1px;
+
+ }
+
+ #flexbox{
+    display: flex;
+ }
